@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace LKSMart
 {
-    public partial class LogActivity : Form
+    public partial class FormUser : Form
     {
-        public LogActivity()
+        public FormUser()
         {
             InitializeComponent();
         }
 
-        private void LogActivity_Load(object sender, EventArgs e)
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
 
         }
@@ -32,22 +37,22 @@ namespace LKSMart
 
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void guna2Shapes1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
 
         }
