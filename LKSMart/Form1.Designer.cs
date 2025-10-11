@@ -142,7 +142,7 @@
             this.guna2Shapes1.PolygonSkip = 1;
             this.guna2Shapes1.Rotate = 0F;
             this.guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rectangle;
-            this.guna2Shapes1.Size = new System.Drawing.Size(615, 602);
+            this.guna2Shapes1.Size = new System.Drawing.Size(585, 602);
             this.guna2Shapes1.TabIndex = 8;
             this.guna2Shapes1.Text = "guna2Shapes1";
             this.guna2Shapes1.UseTransparentBackground = true;
@@ -200,7 +200,6 @@
             this.ClientSize = new System.Drawing.Size(965, 485);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2HtmlLabel5);
-            this.Controls.Add(this.guna2Shapes1);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2TextBox2);
@@ -209,6 +208,7 @@
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.guna2Shapes1);
             this.Name = "Form1";
             this.Text = "Halaman Login";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
