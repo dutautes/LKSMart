@@ -17,11 +17,6 @@ namespace LKSMart
             InitializeComponent();
         }
 
-        private void LogActivity_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
