@@ -147,7 +147,6 @@
             this.guna2Shapes1.Text = "guna2Shapes1";
             this.guna2Shapes1.UseTransparentBackground = true;
             this.guna2Shapes1.Zoom = 80;
-            this.guna2Shapes1.Click += new System.EventHandler(this.guna2Shapes1_Click);
             // 
             // guna2HtmlLabel5
             // 

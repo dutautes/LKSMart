@@ -16,35 +16,5 @@ namespace LKSMart
         {
             InitializeComponent();
         }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -17,20 +17,5 @@ namespace LKSMart
             InitializeComponent();
             txtKelolaBarang.Text = "KELOLA\nBARANG";
         }
-
-        private void Gudang_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -16,10 +16,5 @@ namespace LKSMart
         {
             InitializeComponent();
         }
-
-        private void guna2Shapes1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -28,13 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            "BRG001",
+            "Fan01",
+            "Fanta Strawberry",
+            "14/12/2025",
+            "100",
+            "Botol",
+            "Rp. 7.000"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "BRG002",
+            "Fan02",
+            "Fanta Melon",
+            "14/12/2025",
+            "100",
+            "Botol",
+            "Rp. 7.000"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "BRG003",
+            "Mil01",
+            "Milo",
+            "14/12/2025",
+            "100",
+            "Kotak",
+            "Rp. 8.000"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            "BRG004",
+            "Spr01",
+            "Sprite",
+            "14/12/2025",
+            "100",
+            "Botol",
+            "Rp. 7.500"}, -1);
             this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtKelolaBarang = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -48,14 +76,24 @@
             this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.guna2Shapes2 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.IdBarang = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.KodeBarang = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NamaBarang = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ExpiredDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Qty = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Satuan = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.HargaSatuan = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Shapes1
@@ -80,40 +118,25 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.SteelBlue;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Tai Le", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(110, 60);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(109, 60);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(208, 62);
             this.guna2HtmlLabel1.TabIndex = 28;
             this.guna2HtmlLabel1.Text = "GUDANG";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // txtKelolaBarang
             // 
             this.txtKelolaBarang.BackColor = System.Drawing.Color.SteelBlue;
             this.txtKelolaBarang.Font = new System.Drawing.Font("Microsoft Tai Le", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtKelolaBarang.ForeColor = System.Drawing.Color.White;
-            this.txtKelolaBarang.Location = new System.Drawing.Point(118, 466);
+            this.txtKelolaBarang.Location = new System.Drawing.Point(117, 466);
             this.txtKelolaBarang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtKelolaBarang.Name = "txtKelolaBarang";
             this.txtKelolaBarang.Size = new System.Drawing.Size(200, 122);
             this.txtKelolaBarang.TabIndex = 29;
             this.txtKelolaBarang.Text = "KELOLA<br>\r\nBARANG";
             this.txtKelolaBarang.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::LKSMart.Properties.Resources.warehouse;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(47, 204);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(333, 185);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 30;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // guna2Button1
             // 
@@ -261,7 +284,6 @@
             this.guna2TextBox7.SelectedText = "";
             this.guna2TextBox7.Size = new System.Drawing.Size(333, 43);
             this.guna2TextBox7.TabIndex = 44;
-            this.guna2TextBox7.TextChanged += new System.EventHandler(this.guna2TextBox7_TextChanged);
             // 
             // guna2TextBox2
             // 
@@ -300,25 +322,6 @@
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.Size = new System.Drawing.Size(333, 43);
             this.guna2TextBox3.TabIndex = 46;
-            // 
-            // guna2TextBox4
-            // 
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(721, 334);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(333, 43);
-            this.guna2TextBox4.TabIndex = 47;
             // 
             // guna2TextBox5
             // 
@@ -396,64 +399,162 @@
             this.guna2Button4.Text = "Hapus";
             this.guna2Button4.UseTransparentBackground = true;
             // 
-            // guna2DataGridView1
+            // guna2TextBox4
             // 
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle18;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(464, 489);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(812, 320);
-            this.guna2DataGridView1.TabIndex = 52;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox4.DefaultText = "";
+            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox4.IconRight = global::LKSMart.Properties.Resources.calendar;
+            this.guna2TextBox4.Location = new System.Drawing.Point(721, 334);
+            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2TextBox4.Name = "guna2TextBox4";
+            this.guna2TextBox4.PlaceholderText = "";
+            this.guna2TextBox4.SelectedText = "";
+            this.guna2TextBox4.Size = new System.Drawing.Size(333, 43);
+            this.guna2TextBox4.TabIndex = 47;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::LKSMart.Properties.Resources.warehouse;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(47, 204);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(333, 185);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 30;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.IdBarang,
+            this.KodeBarang,
+            this.NamaBarang,
+            this.ExpiredDate,
+            this.Qty,
+            this.Satuan,
+            this.HargaSatuan});
+            this.listView1.HideSelection = false;
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4});
+            this.listView1.Location = new System.Drawing.Point(463, 546);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(776, 229);
+            this.listView1.TabIndex = 52;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // guna2Shapes2
+            // 
+            this.guna2Shapes2.FillColor = System.Drawing.Color.White;
+            this.guna2Shapes2.Location = new System.Drawing.Point(357, 448);
+            this.guna2Shapes2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Shapes2.Name = "guna2Shapes2";
+            this.guna2Shapes2.PolygonSkip = 1;
+            this.guna2Shapes2.Rotate = 0F;
+            this.guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rectangle;
+            this.guna2Shapes2.Size = new System.Drawing.Size(983, 364);
+            this.guna2Shapes2.TabIndex = 53;
+            this.guna2Shapes2.Text = "guna2Shapes2";
+            this.guna2Shapes2.Zoom = 80;
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.MediumBlue;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(477, 501);
+            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(292, 31);
+            this.guna2HtmlLabel10.TabIndex = 54;
+            this.guna2HtmlLabel10.Text = "TABEL STOCK BARANG";
+            // 
+            // guna2TextBox6
+            // 
+            this.guna2TextBox6.BorderRadius = 15;
+            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox6.DefaultText = "";
+            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.IconRight = global::LKSMart.Properties.Resources.search;
+            this.guna2TextBox6.Location = new System.Drawing.Point(944, 495);
+            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2TextBox6.Name = "guna2TextBox6";
+            this.guna2TextBox6.PlaceholderForeColor = System.Drawing.Color.DimGray;
+            this.guna2TextBox6.PlaceholderText = "Search";
+            this.guna2TextBox6.SelectedText = "";
+            this.guna2TextBox6.Size = new System.Drawing.Size(280, 43);
+            this.guna2TextBox6.TabIndex = 55;
+            // 
+            // IdBarang
+            // 
+            this.IdBarang.Text = "ID Barang";
+            this.IdBarang.Width = 120;
+            // 
+            // KodeBarang
+            // 
+            this.KodeBarang.Text = "Kode Barang";
+            this.KodeBarang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.KodeBarang.Width = 102;
+            // 
+            // NamaBarang
+            // 
+            this.NamaBarang.Text = "Nama Barang";
+            this.NamaBarang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.NamaBarang.Width = 130;
+            // 
+            // ExpiredDate
+            // 
+            this.ExpiredDate.Text = "Expired Date";
+            this.ExpiredDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ExpiredDate.Width = 112;
+            // 
+            // Qty
+            // 
+            this.Qty.Text = "Qty";
+            this.Qty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Qty.Width = 95;
+            // 
+            // Satuan
+            // 
+            this.Satuan.Text = "Satuan";
+            this.Satuan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Satuan.Width = 94;
+            // 
+            // HargaSatuan
+            // 
+            this.HargaSatuan.Text = "Harga Satuan";
+            this.HargaSatuan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.HargaSatuan.Width = 118;
             // 
             // Gudang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1292, 823);
-            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.guna2TextBox6);
+            this.Controls.Add(this.guna2HtmlLabel10);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.guna2Button2);
@@ -476,12 +577,11 @@
             this.Controls.Add(this.txtKelolaBarang);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2Shapes1);
+            this.Controls.Add(this.guna2Shapes2);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Gudang";
             this.Text = "Gudang";
-            this.Load += new System.EventHandler(this.Gudang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -511,6 +611,16 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private System.Windows.Forms.ListView listView1;
+        private Guna.UI2.WinForms.Guna2Shapes guna2Shapes2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private System.Windows.Forms.ColumnHeader IdBarang;
+        private System.Windows.Forms.ColumnHeader KodeBarang;
+        private System.Windows.Forms.ColumnHeader NamaBarang;
+        private System.Windows.Forms.ColumnHeader ExpiredDate;
+        private System.Windows.Forms.ColumnHeader Qty;
+        private System.Windows.Forms.ColumnHeader Satuan;
+        private System.Windows.Forms.ColumnHeader HargaSatuan;
     }
 }

@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "1",
             "Admin 1",
             "03/05/2025 16:30",
             "Login"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "2",
             "Admin 1",
             "10/10/2025 10:00",
             "Logout"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "3",
             "Admin 2",
             "14/11/2024 15:30",
@@ -66,6 +66,7 @@
             this.Waktu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Aktivitas = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.guna2Shapes2 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -234,7 +235,7 @@
             this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(173, 36);
+            this.guna2DateTimePicker2.Size = new System.Drawing.Size(183, 36);
             this.guna2DateTimePicker2.TabIndex = 12;
             this.guna2DateTimePicker2.UseTransparentBackground = true;
             this.guna2DateTimePicker2.Value = new System.DateTime(2025, 10, 9, 17, 17, 27, 343);
@@ -291,9 +292,9 @@
             this.Aktivitas});
             this.listView1.HideSelection = false;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3});
+            listViewItem7,
+            listViewItem8,
+            listViewItem9});
             this.listView1.Location = new System.Drawing.Point(371, 297);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(535, 179);
@@ -340,6 +341,12 @@
             this.guna2Shapes2.UseTransparentBackground = true;
             this.guna2Shapes2.Zoom = 80;
             // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
             // LogActivity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -362,6 +369,7 @@
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2Shapes1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LogActivity";
             this.Text = "LogActivity";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -394,5 +402,6 @@
         private System.Windows.Forms.ColumnHeader Waktu;
         private System.Windows.Forms.ColumnHeader Aktivitas;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes2;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
     }
 }
